@@ -1,8 +1,8 @@
 <html>
 <head>
-<h2> MAX OF ARRAY ELEMENTS </h2>
+<h2> REVERSE ARRAY ELEMENTS </h2>
 <h3> Accepted Solution </h3>
-<title> Max Of Array Elements </title>
+<title> Reverse Array Elements </title>
 </head>
 <body>
 <p>
@@ -19,16 +19,24 @@ public class Solution {  <br>
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */ <br>
         Scanner in=new Scanner (System.in);  <br>
         int n=in.nextInt();  <br>
-        int[] a=new int[n];  <br>
-        for(int i=0;i< n;i++)   <br>
-            a[i]=in.nextInt();   <br>
-        int max=a[0];        <br>
-        for(int i=1;i< n;i++)    <br>
-            if(a[i]>max)      <br>
-                max=a[i];      <br>
-        System.out.print(max);  <br>
-    } <br>
+       long a[]=new long[n];   <br>
+		for(int i=0;i< n;i++)   <br>
+		a[i]=in.nextLong();     <br>
+		 int k=a.length-1;    <br>
+         int m=k+1;       <br>
+		 for(int i=0;i< m/2;i++)  <br>
+             { <br>
+             long t=a[i]; <br>
+             a[i]=a[k];  <br>
+             a[k]=t; <br>
+             k--;  <br>
+             } <br>
+        for(int i=0;i< n;i++) <br>
+            System.out.print(a[i]+" ");  <br>
+
+    }  <br>
 } <br>
+          
 
 </p>
 </body>
