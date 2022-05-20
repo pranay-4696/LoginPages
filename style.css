@@ -1,0 +1,39 @@
+*{
+body{
+  background-image: url(file:///C:/mySite/img1.webp);
+  background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+.menu
+{
+  background: rgba(0,100,0);
+  text-align: center;
+}
+.menu ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.active
+{
+background: #2bab0d;
+border-radius: 3px;
+}
+.menu ul li:hover
+{
+background: #2bab0d;
+border-radius: 6px;
+transition: 1s;
+}
