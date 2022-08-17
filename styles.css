@@ -1,0 +1,60 @@
+body{
+  background-color: #3AB4F2;
+  font-family: Sans-serif; 
+}
+h1,h3
+{
+  margin-top: 50px;
+  text-align: center;
+}
+.container
+{
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 40px 40px;
+}
+label{
+  margin-left: 20px;
+  
+}
+input{
+  position: absolute;
+  display: inline-block;
+  height: 32px;
+  width: 40%;
+  border-color: #2B4865;
+  border-radius: 10px;
+  left: 20rem;
+  text-align: center;
+}
+.inbox{
+  font-size: 2rem;
+  margin: 20px;
+}
+.inbox label{
+  margin-right: 10px;
+}
+#int{
+  margin-bottom: 70px;
+}
+h3{
+  font-size: 2rem;
+}
+.btn{
+  text-align: center;
+}
+.bt{
+  margin: 20px 0;
+  border: none;
+  height: 32px;
+  width: 90px;
+  border-radius: 20px;
+  background-color: #fffff;
+  margin-left: 20px;
+}
+p{
+  margin: 0 0 20px;
+  margin-left: 40px;
+  
+}
