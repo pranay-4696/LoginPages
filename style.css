@@ -1,0 +1,45 @@
+body{
+  font-family: 'Ubuntu';
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+#top
+{
+  padding: 3% 15%; 
+}
+.header{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1;
+  margin: 0 30% 0 0;
+}
+
+imgd{
+  margin-left: 20%;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.db{
+  margin: 5% 3% 5% 0;
+}
+#imgp{
+  transform: rotate(25deg);
+  width: 60%;
+}
+
