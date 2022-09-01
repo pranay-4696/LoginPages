@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Petsee</title>
+ <link rel="icon" type=image/png href="images/logo.png">
+  <script src="https://kit.fontawesome.com/0fd5ef9f53.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
@@ -29,10 +30,10 @@ class="navbar sticky-top navbar-expand-md navbar-dark">
 <div class="collapse navbar-collapse" id="navmenu">
   <ul class="navbar-nav ms-auto">
     <li class="nav-item">
-      <a class="nav-link" href="#">Learn</a>
+      <a class="nav-link" href="#">Features</a>
     </li>
         <li class="nav-item">
-      <a class="nav-link" href="#">Explore</a>
+      <a class="nav-link" href="#">Pricing</a>
     </li>
         <li class="nav-item">
       <a class="nav-link" href="#">Contact</a>
@@ -45,13 +46,15 @@ class="navbar sticky-top navbar-expand-md navbar-dark">
 
     <!-- Title -->
 <div class="row">
-    <div class="col-md-6">
-      <h1 class="header">Meet new and interesting dogs nearby.</h1>
+    <div class="col-md-6 col-sm-12">
+      <div class="hm">
+      <h1 class="header">Meet new and interesting Pets nearby.</h1>
+      </div>
       <button class="btn btn-dark db" type="button"><i class="fa-brands fa-apple"></i>Download</button>
       <button class="btn btn-outline-light db" type="button"><i class="fa-brands fa-google-play"></i>Download</button>
     </div>
     <div class="col-md-6 imgd">
-      <img id="imgp" src="iphone6.png" alt="iphone-mockup">
+      <img class="img-fluid p-lg-0" id="imgp" src="images/iphone6.png" alt="iphone-mockup">
     </div>
     </div>
         </div>
@@ -61,38 +64,60 @@ class="navbar sticky-top navbar-expand-md navbar-dark">
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+<div class="row boxes">
+  <div class="col-md-4 box">
+    <h3><i class="fa-solid fa-lg fa-circle-check"></i><br>Easy to use.</h3>
+    <p class="para">So easy to use, even your pet could do it.</p>
+</div>
+  <div class="col-md-4 box">
+    <h3><i class="fa-solid fa-lg fa-bullseye"></i><br>Elite Clientele</h3>
+    <p class="para">We have all the pets, the greatest pets.</p>
+</div>
+  <div class="col-md-4 box">
+    <h3><i class="fa-solid fa-lg fa-heart"></i><br>Guaranteed to work.</h3>
+    <p class="para">Find the love of your pet's life or your money back.</p>
+</div>
   </section>
 
 
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+<div id="carl" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on Petsee. Woof.</h2>
+    <img class="test-img" src="images/dog-img.jpg" alt="dog-profile">
+    <br>
+    <em>Himanshu, Hyderabad</em>
+</div>
+<div class="carousel-item">
+     <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="test-img" src="images/dog-img.jpg" alt="lady-profile">
+    <br>
+    <em>Disha, Waranagal</em>
+     </div>
+     <div class="carousel-item">
+     <h2 class="testimonial-text">My dog used to be so lonely, but help,they've found the love of their life.Thank Petsee</h2>
+    <img class="test-img" src="images/dog-img.jpg" alt="lady-profile">
+    <br>
+    <em>Zayn, Mumbai</em>
+     </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carl" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carl" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+       </div>
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
+    <img class="img-fluid w-md-60 w-sm-80" src="images/techcrunch.png" alt="tc-logo">
     <img src="images/tnw.png" alt="tnw-logo">
     <img src="images/bizinsider.png" alt="biz-insider-logo">
     <img src="images/mashable.png" alt="mashable-logo">
@@ -103,35 +128,56 @@ class="navbar sticky-top navbar-expand-md navbar-dark">
   <!-- Pricing -->
 
   <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
+    <div class="ph">
+        <h2>A Plan for Every Pet's Needs</h2>
+       <p>Simple and affordable price plans for your and your pet.</p>
+    </div>
+    
+    <div class="row">
+    <div class="card col-lg-4 col-md-6">
+    <div class="card">
+    <div class="card-header">
+       <h3>Chihuahua</h3>
+    </div>
+    <div class="card-body">
+        <h2>Free</h2>
     <p>5 Matches Per Day</p>
     <p>10 Messages Per Day</p>
     <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
+    <button class="btn btn-outline-dark" type="button">Sign Up</button>
+    </div>
+  </div>
+  </div>
+       <div class="card col-lg-4 col-md-6">
+    <div class="card">
+    <div class="card-header">
+          <h3>Labrador</h3>
+    </div>
+    <div class="card-body">
+        <h2>$49 / mo</h2>
     <p>Unlimited Matches</p>
     <p>Unlimited Messages</p>
     <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
+    <button class="btn btn-outline-dark" type="button">Sign Up</button>
+</div>
+    </div>
+  </div>
+   <div class="card col-lg-4 col-md-0">
+    <div class="card">
+    <div class="card-header">
+          <h3>Mastiff</h3>
+    </div>
+    <div class="card-body">
+       <h2>$99 / mo</h2>
     <p>Pirority Listing</p>
     <p>Unlimited Matches</p>
     <p>Unlimited Messages</p>
     <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+    <button class="btn btn-outline-dark"type="button">Sign Up</button>
+    </div>
+  </div>
+</div>
+</div>
   </section>
 
 
@@ -139,9 +185,9 @@ class="navbar sticky-top navbar-expand-md navbar-dark">
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+    <button class="btn cta-btn btn-dark" type="button"><i class="fa-brands fa-apple"></i>Download</button>
+       <button class="btn cta-btn btn-outline-light" type="button"><i class="fa-brands fa-google-play"></i>Download</button>
 
   </section>
 
@@ -149,8 +195,13 @@ class="navbar sticky-top navbar-expand-md navbar-dark">
   <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright 2018 TinDog</p>
+<div class="soc">
+  <i class="fa-brands i-f fa-facebook"></i>
+  <i class="fa-brands i-f fa-instagram"></i>
+  <i class="fa-brands i-f fa-twitter"></i>
+  <i class="fa-brands i-f fa-envelope"></i>
+</div>
+    <p>© Copyright 2022 Petsee</p>
 
   </footer>
   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
