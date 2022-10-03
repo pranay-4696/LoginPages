@@ -3,5 +3,5 @@ Using
 • HTML
 • CSS
 • Bootstrap
-Visit:
-https://pranay-4696.github.io/Petsee/
+
+[Show Project](https://pranay-4696.github.io/Petsee/)
